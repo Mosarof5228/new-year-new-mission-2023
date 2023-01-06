@@ -74,6 +74,7 @@
     border-radius:50%;
 }
 
+
 /* failures-success-section */
 .failures-success-section{
     display: flex;
@@ -107,8 +108,11 @@
 .failure-items li::before{
     content:'';
 }
-.failure-item{
-
+.failure-item1{
+display: inline;
+}
+.first{
+    display: inline;
 }
 
 /* planning section */
