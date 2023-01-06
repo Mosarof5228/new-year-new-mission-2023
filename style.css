@@ -40,12 +40,44 @@
     border-radius: 3px;
     border:none;
 }
+/* personal section */
+.personal-section{
+    /* background-color: lightgray; */
+    max-width: 80%;
+    height: 50vh;
+    margin:0 auto;
+    padding:50px 80px;
+    text-align: center;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+.personal-title{
+
+}
+.biography, .personal-info{
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+.personal-contents{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 50px;
+}
+.my-image img{
+    height:300px;
+    width:300px;
+    border-radius:50%;
+}
 
 /* failures-success-section */
 .failures-success-section{
     display: flex;
-    margin-top: 130px;
-    padding:20px 280px;
+    margin-top:0px;
     justify-content: space-around;
     align-items:center;
 }
@@ -81,7 +113,7 @@
 
 /* planning section */
 .planning-section{
-    margin-top: 240px;
+    margin-top: 60px;
     margin-bottom:120px;
     padding: 20px 400px;
 }
@@ -91,7 +123,7 @@
     margin-top: 50px;
 }
 .planning-content{
-
+    text-align: center;
 }
 .planning-title{
     text-align: center;
