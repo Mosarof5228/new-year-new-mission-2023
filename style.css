@@ -81,12 +81,7 @@
     margin-top:0px;
     justify-content: space-around;
     align-items:center;
-}
-.failure-image{
-
-}
-.failure-contents{
-
+  
 }
 
 .failure-title{
@@ -164,10 +159,8 @@ display: inline;
     height:64px;
     color:#005FAC;
    margin-left:70px;
+   border-radius: 10px;
     
-}
-.popup-contents{
-
 }
 
 /* footer-section */
@@ -204,9 +197,17 @@ font-weight: 700;
 .input-email{
     margin-top: 31px;
     margin-bottom: 16px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400px;
     padding: 10px 30px;
+    background-color: black;
+    border:1px solid white;
+    border-radius:8px;
+    color:white;
+ 
+}
+::placeholder{
+    color:white;
 }
 .footer-btn{
     width: 171px;
@@ -215,5 +216,6 @@ font-weight: 700;
     font-size: 20px;
     font-weight: 600;
     padding:10px 30px;
+    border-radius:7px;
 
 }
